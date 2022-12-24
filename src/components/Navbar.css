@@ -1,0 +1,29 @@
+.navbar{
+    width: 100%;
+    background-color: 	rgb(48,48,48);
+    padding: 10px;
+}
+
+.links{
+    
+    text-align: end;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.links > .shop-link{
+    text-decoration: none;
+    position: relative;
+    right: 30px;
+    top:-5px;
+    color: whitesmoke;
+
+}
+.links > .cart-icon{
+    color: whitesmoke;
+
+        position: relative;
+        top:3px;
+
+}
+

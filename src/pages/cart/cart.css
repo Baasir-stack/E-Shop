@@ -1,0 +1,89 @@
+.cart >.cart-title {
+    
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    /* border: 2px solid yellow; */
+}
+
+.cart-item{
+    border: 1px solid whitesmoke;
+    /* border-radius: 8px; */
+    padding: 3em;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 2px solid red; */
+    width: 40%;
+    border-radius: 12em;
+    margin: 2em auto;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      overflow: hidden;
+      
+  }
+  
+  
+  .cart-description{
+    position: relative;
+    bottom: -10px;
+    padding: 0.5em;
+    /* border: 2px solid red; */
+     
+  }
+  .cart-description > p:first-child{
+      font-size: 1.5rem;
+      font-weight: bolder;
+    
+      
+  }
+  
+  .cart-description > p:nth-of-type(2){
+      margin-top: 0.4em;
+      font-size: 1.5rem;
+        font-weight: bold;
+      text-align: start;
+  
+  }
+  .counter{
+    margin-top: 0.6em;
+  }
+  
+  .cart-description :last-child >input{
+
+    width: 30%;
+    /* border-radius: 12px; */
+    border: 1px solid grey;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.checkout{
+  /* background-color: pink; */
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 17px;
+}
+
+.checkout :last-child{
+margin-top: 1em;
+
+
+}
+.checkout> p{
+font-weight: bold;
+}
+
+.checkout >button{
+  width: 40%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: 	rgb(16,16,16);
+  color: white;
+  border: none;
+}
